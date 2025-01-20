@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi gráfica con ECharts</title>
+    <script src="{% static 'echarts.min.js' %}"></script>
+</head>
+<body>
+    <div id="myChart" style="width: 800px;height:400px;"></div>
+    <script>
+        // Tu código JavaScript pa¿ra crear la gráfica
+        const myChart = echarts.init(document.getElementById('myChart'));
+        // ...
+    </script>
+</body>
+</html>
